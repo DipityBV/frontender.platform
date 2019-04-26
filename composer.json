@@ -14,10 +14,5 @@
         "psr-4": {
             "Prototype\\": "lib/"
         }
-    },
-    "scripts": {
-        "post-create-project-cmd": [
-            "Frontender\\Core\\Installer\\Wizard::install"
-        ]
     }
 }
