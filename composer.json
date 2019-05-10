@@ -15,6 +15,9 @@
         }
     },
     "scripts": {
+        "post-create-project-cmd": [
+            "Frontender\\Core\\Installer\\Platform::install"
+        ],
         "post-install-cmd": [
             "@post-create-project-cmd"
         ],
