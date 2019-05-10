@@ -19,7 +19,10 @@
             "Frontender\\Core\\Installer\\Platform::install"
         ],
         "post-install-cmd": [
-            "@post-create-project-cmd"
+            "Frontender\\Core\\Installer\\Platform::install"
+        ],
+        "post-update-cmd": [
+            "Frontender\\Core\\Installer\\Platform::install"
         ],
         "install-project": [
             "Frontender\\Core\\Installer\\Project::import"
