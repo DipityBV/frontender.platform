@@ -13,5 +13,13 @@
         "psr-4": {
             "Prototype\\": "lib/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@post-create-project-cmd"
+        ],
+        "install-project": [
+            "Frontender\\Core\\Installer\\Project::import"
+        ]
     }
 }
