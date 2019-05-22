@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Prototype\\": "lib/"
+            "Frontender\\Platform\\": "lib/"
         }
     },
     "scripts": {
