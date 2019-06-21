@@ -36,5 +36,6 @@ return [
             'path' => ROOT_PATH . '/cache/twig'
         ],
         'debug' => true
-    ]
+    ],
+    'fem_host' => getenv('FEM_HOST') ?: 'http://manager.getfrontender.com'
 ];
