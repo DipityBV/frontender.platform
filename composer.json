@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-        "frontender/platform-core": "dev-feature\/dist"
+        "frontender/platform-core": "dev-feature/dist"
     },
     "autoload": {
         "psr-4": {
@@ -15,17 +15,12 @@
         }
     },
     "scripts": {
-        "post-create-project-cmd": [
-            "Frontender\\Core\\Installer\\Platform::install"
-        ],
-        "post-install-cmd": [
-            "Frontender\\Core\\Installer\\Platform::install"
-        ],
-        "post-update-cmd": [
+        "install-platform": [
             "Frontender\\Core\\Installer\\Platform::install"
         ],
         "install-project": [
-            "Frontender\\Core\\Installer\\Project::import", "@composer update --no-scripts"
+            "Frontender\\Core\\Installer\\Project::import",
+            "@composer update"
         ]
     }
 }
