@@ -15,17 +15,11 @@
         }
     },
     "scripts": {
-        "post-create-project-cmd": [
-            "Frontender\\Core\\Installer\\Platform::install"
-        ],
-        "post-install-cmd": [
-            "Frontender\\Core\\Installer\\Platform::install"
-        ],
-        "post-update-cmd": [
+        "install-project": [
             "Frontender\\Core\\Installer\\Platform::install"
         ],
         "install-project": [
-            "Frontender\\Core\\Installer\\Project::import", "@composer update --no-scripts"
+            "Frontender\\Core\\Installer\\Project::import", "@composer update"
         ]
     }
 }
