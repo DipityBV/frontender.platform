@@ -26,8 +26,23 @@ return [
 
 	/* Project settings */
     'project' => [
-        'path' => ROOT_PATH . '/project'
+        'path' => ROOT_PATH . '/project',
     ],
+
+    /* Locale settings
+     *
+     * The filter attribute accepts an array of comma-separated locale strings.
+     * When set, only the specified locales will be available in the
+     * project settings.
+     * 
+     * When the filter attribute is not set, all languages will be available in the
+     * project settings.
+     * 
+     * 'locales' => [
+     *     'filter' => ['en-GB']
+     * ],
+     * 
+     */
 
     /* Template (Twig) settings */
     'template' => [
