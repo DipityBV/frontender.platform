@@ -1,4 +1,5 @@
 {
+    "name": "frontender/platform",
     "repositories": [
         {
             "name": "frontender/platform-core",
