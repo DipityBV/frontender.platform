@@ -1,4 +1,6 @@
 {
+    "name": "frontender/platform",
+    "description": "This is the base installation for your frontender platform",
     "repositories": [
         {
             "name": "frontender/platform-core",
