@@ -7,7 +7,8 @@
         }
     ],
     "require": {
-        "frontender/platform-core": "dev-feature/dist"
+        "frontender/platform-core": "dev-feature/dist",
+        "ext-mongodb": "*"
     },
     "autoload": {
         "psr-4": {
@@ -15,12 +16,28 @@
         }
     },
     "scripts": {
-        "install-platform": [
-            "Frontender\\Core\\Installer\\Platform::install"
+        "setup": [
+            "Frontender\\Core\\Installer\\Platform::setup",
+            "Frontender\\Core\\Installer\\Platform::importCoreControls"
+        ],
+        "post-install-cmd": [
+            "@setup"
+        ],
+        "post-update-cmd": [
+            "Frontender\\Core\\Installer\\Platform::importCoreControls"
+        ],
+        "import-project-controls": [
+            "Frontender\\Core\\Installer\\Importer\\Controls::importViaComposer"
+        ],
+        "import-project-blueprints": [
+            "Frontender\\Core\\Installer\\Importer\\Blueprints::importViaComposer"
+        ],
+        "import-project-pages": [
+            "Frontender\\Core\\Installer\\Importer\\Pages::importViaComposer"
         ],
         "install-project": [
             "Frontender\\Core\\Installer\\Project::import",
-            "@composer update"
+            "@composer update --no-scripts"
         ]
     }
 }
