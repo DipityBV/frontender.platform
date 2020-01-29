@@ -1,16 +1,9 @@
 {
     "name": "frontender/platform",
     "description": "This is the base installation for your frontender platform",
-    "repositories": [
-        {
-            "name": "frontender/platform-core",
-            "type": "vcs",
-            "url": "https://github.com/getfrontender/frontender.platform-core.git"
-        }
-    ],
+    "minimum-stability": "dev",
     "require": {
-        "frontender/platform-core": "dev-master",
-        "ext-mongodb": "*"
+        "frontender/platform-core": "*"
     },
     "autoload": {
         "psr-4": {
