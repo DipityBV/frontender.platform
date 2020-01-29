@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "frontender/platform-core": "dev-feature/dist",
+        "frontender/platform-core": "dev-master",
         "ext-mongodb": "*"
     },
     "autoload": {
