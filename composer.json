@@ -26,7 +26,7 @@
             "@setup"
         ],
         "post-update-cmd": [
-            "Frontender\\Core\\Installer\\Platform::importCoreControls"
+            "@setup"
         ],
         "import-project-controls": [
             "Frontender\\Core\\Installer\\Importer\\Controls::importViaComposer"
@@ -37,7 +37,7 @@
         "import-project-pages": [
             "Frontender\\Core\\Installer\\Importer\\Pages::importViaComposer"
         ],
-        "install-project": [
+        "import-project": [
             "Frontender\\Core\\Installer\\Project::import",
             "@composer update --no-scripts"
         ]
