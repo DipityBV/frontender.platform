@@ -4,6 +4,13 @@ Frontender is a front-end solution for API driven website architecture.
 
 [https://getfrontender.com](https://getfrontender.com)
 
+## Table of content
+1. [Server Requirements](https://github.com/getfrontender/frontender.platform#server-requirements)
+2. [Pre-requisites](https://github.com/getfrontender/frontender.platform#pre-requisites)
+3. [Creating your first project](https://github.com/getfrontender/frontender.platform#creating-your-first-project)
+4. [Updating controls](https://github.com/getfrontender/frontender.platform#updating-controls)
+5. [Updating blueprints](https://github.com/getfrontender/frontender.platform#updating-blueprints)
+
 ## Server Requirements
 - PHP 7.1 or higher
 - PHP MongoDB extension
