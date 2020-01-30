@@ -32,7 +32,8 @@ Register a new project by sending your project domain and the email you used for
 
 ## Creating your first project
 
-### Step 1. Create an install file
+### Step 1. Install Frontender Platform
+
 Create a file `install.json`. You can use the `install.json-preset` we have provided as a template: `cp install.json-preset install.json`. It should contain the following:
 ```json
 {
@@ -42,8 +43,10 @@ Create a file `install.json`. You can use the `install.json-preset` we have prov
 }
 ```
 
-### Step 2. Run the installation process and setup your hosts file
 Run the following from the commandline: `composer install`. Frontender Platform will now run a sequence of install commands to set up the database and import a barebones structure for further development.
+
+### Step 2. Setup your hosts file
+
 Next, setup your hosts file. The implementation will differ depending on your server or development setup, but basically you just need to make sure your server is pointing to the `public` folder for routing.
 
 ### Step 3. Import a project
