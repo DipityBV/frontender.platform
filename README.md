@@ -2,8 +2,9 @@
 
 Frontender is a front-end solution for API driven website architecture.
 
-https://img.shields.io/badge/v2.1.2-Latest%20Release-FFE550
-https://img.shields.io/badge/v2.2.0rc2-Pre%20Release-ff7bb5
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Version](https://img.shields.io/badge/Latest%20Release-v2.1.2-FFE550)](https://github.com/getfrontender/frontender.desktop/releases/latest)
+[![Version](https://img.shields.io/badge/Pre%20Release-v2.2.0rc2-ff7bb5)](https://github.com/getfrontender/frontender.desktop/releases/tag/v2.2.0rc2)
 
 
 [https://getfrontender.com](https://getfrontender.com)
