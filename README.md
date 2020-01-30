@@ -46,7 +46,6 @@ Create a file `install.json`. You can use the `install.json-preset` we have prov
 Run the following from the commandline: `composer install`. Frontender Platform will now run a sequence of install commands to set up the database and import a barebones structure for further development.
 
 ### Step 3. Import a project
-
 Your installation now contains most the resources and dependencies, except for pages. You can create these manually, or import a barebones project to create your new project. Import a project by running:
 ```
 composer run-script import-project https://github.com/getfrontender/frontender.project.stark.git
@@ -54,14 +53,14 @@ composer run-script import-project https://github.com/getfrontender/frontender.p
 
 You can select any of the [Frontender prefab projects](https://github.com/getfrontender), or create your own.
 
-### Step 4. Delete install.json
+### Step 4. Setup your hostfile
+The implementation will differ depending on your server or development setup, but basically you just need to make sure your server is pointing to the `public` folder for routing.
 
+### Step 5. Delete install.json
 You’re done.
 
 ## Updating controls
-
 To do.
 
 ## Updating blueprints
-
 To do.
