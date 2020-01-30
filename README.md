@@ -5,11 +5,11 @@ Frontender is a front-end solution for API driven website architecture.
 [https://getfrontender.com](https://getfrontender.com)
 
 ## Table of content
-[Server Requirements](https://github.com/getfrontender/frontender.platform#server-requirements)
-[Pre-requisites](https://github.com/getfrontender/frontender.platform#pre-requisites)
-[Creating your first project](https://github.com/getfrontender/frontender.platform#creating-your-first-project)
-[Updating controls](https://github.com/getfrontender/frontender.platform#updating-controls)
-[Updating blueprints](https://github.com/getfrontender/frontender.platform#updating-blueprints)
+- [Server Requirements](https://github.com/getfrontender/frontender.platform#server-requirements)
+- [Pre-requisites](https://github.com/getfrontender/frontender.platform#pre-requisites)
+- [Creating your first project](https://github.com/getfrontender/frontender.platform#creating-your-first-project)
+- [Updating controls](https://github.com/getfrontender/frontender.platform#updating-controls)
+- [Updating blueprints](https://github.com/getfrontender/frontender.platform#updating-blueprints)
 
 ## Server Requirements
 - PHP 7.1 or higher
