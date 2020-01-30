@@ -42,7 +42,7 @@ Register a new project by sending your project domain and the email you used for
 Create a file `install.json`. You can use the `install.json-preset` we have provided as a template: `cp install.json-preset install.json`. It should contain the following:
 ```json
 {
-  "token": ###,
+  "token": "###",
   "mongo_host": "mongodb+srv://#USERNAME#:#PASSWORD#@#DOMAIN#:#PORT#",
   "mongo_dbname": ""
 }
