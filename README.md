@@ -50,3 +50,11 @@ You can select any of the [Frontender prefab projects](https://github.com/getfro
 ### Step 4. Delete install.json
 
 You’re done.
+
+## Updating controls
+
+To do.
+
+## Updating blueprints
+
+To do.
