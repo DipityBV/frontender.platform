@@ -42,9 +42,9 @@ Register a new project by sending your project domain and the email you used for
 Create a file `install.json`. You can use the `install.json-preset` we have provided as a template: `cp install.json-preset install.json`. It should contain the following:
 ```json
 {
-  "project_token": ###,
-  "mongodb_hoststring": "mongodb+srv://#USERNAME#:#PASSWORD#@#DOMAIN#:#PORT#",
-  "mongodb_databasename": ""
+  "token": ###,
+  "mongo_host": "mongodb+srv://#USERNAME#:#PASSWORD#@#DOMAIN#:#PORT#",
+  "mongo_dbname": ""
 }
 ```
 
@@ -57,7 +57,7 @@ Next, setup your hosts file. The implementation will differ depending on your se
 ### Step 3. Import a project
 Your installation now contains most the resources and dependencies, except for pages. You can create these manually, or import a barebones project to create your new project. Import a project by running:
 ```
-composer run-script import-project https://github.com/getfrontender/frontender.project.stark.git
+composer run-script import-project https://github.com/getfrontender/frontender.project.stark/archive/master.zip
 ```
 
 You can select any of the [Frontender prefab projects](https://github.com/getfrontender), or create your own.
@@ -65,7 +65,13 @@ You can select any of the [Frontender prefab projects](https://github.com/getfro
 **All done, you can now remove the `install.json` file.**
 
 ## Updating controls
-To do.
+To update all existing controls in your project you can run the command:  
+```composer run-script import-project-controls```
 
 ## Updating blueprints
-To do.
+To update all existing blueprints in your project you can run the command:  
+```composer run-script import-project-blueprints```
+
+## Updating pages
+To update all existing pages in your project you can run the command:  
+```composer run-script import-project-pages```
