@@ -1,13 +1,13 @@
 # Frontender Platform
 
-Frontender is a front-end solution for API driven website architecture.
+Frontender is a front-end solution for API driven website architecture. Read more about Frontender on our website [https://getfrontender.com](https://getfrontender.com)
+
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Version](https://img.shields.io/badge/Latest%20Release-v2.1.2-FFE550)](https://github.com/getfrontender/frontender.desktop/releases/latest)
 [![Version](https://img.shields.io/badge/Pre%20Release-v2.2.0rc2-ff7bb5)](https://github.com/getfrontender/frontender.desktop/releases/tag/v2.2.0rc2)
 
 
-[https://getfrontender.com](https://getfrontender.com)
 
 ## Table of content
 - [Server Requirements](https://github.com/getfrontender/frontender.platform#server-requirements)
