@@ -1,4 +1,4 @@
-# frontender Platform
+# Frontender Platform
 
 Frontender is a front-end solution for API driven website architecture.
 
