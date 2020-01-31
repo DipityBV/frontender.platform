@@ -4,8 +4,8 @@ Frontender is a front-end solution for API driven website architecture. Read mor
 
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![Version](https://img.shields.io/badge/Latest%20Release-v2.1.2-FFE550)](https://github.com/getfrontender/frontender.desktop/releases/latest)
-[![Version](https://img.shields.io/badge/Pre%20Release-v2.2.0rc2-ff7bb5)](https://github.com/getfrontender/frontender.desktop/releases/tag/v2.2.0rc2)
+[![Version](https://img.shields.io/badge/Stable-v2.1.2-FFE550)](https://github.com/getfrontender/frontender.desktop/releases/latest)
+[![Version](https://img.shields.io/badge/Dev-v2.2.0rc2-ff7bb5)](https://github.com/getfrontender/frontender.desktop/releases/tag/v2.2.0rc2)
 
 
 
@@ -75,3 +75,6 @@ To update all existing blueprints in your project you can run the command:
 ## Updating pages
 To update all existing pages in your project you can run the command:  
 ```composer run-script import-project-pages```
+
+## Debugging
+Frontender Platform will also function with PHP MongoDB extensions version 1.5 and up, but this will require you to run the installer with the `--ignore-platform-reqs` flag.
